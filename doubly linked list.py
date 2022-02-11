@@ -1,8 +1,3 @@
-from threading import local
-
-from numpy import delete
-
-
 class doublyLinkedList:
     def __init__(self):
         self.head=None
