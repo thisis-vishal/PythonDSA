@@ -11,7 +11,7 @@ class circularLinkedList:
             node=node.next
     def createCLL(self,value):
         node=Node(value)
-        node.next=node
+        node.next=None
         self.head=node
         self.tail=node
         return("successfully created")
