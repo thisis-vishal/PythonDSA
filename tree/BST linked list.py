@@ -1,4 +1,3 @@
-from sympy import root
 import QueueLinkedList as queue
 class treeNode:
     def __init__(self,data):
